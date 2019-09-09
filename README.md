@@ -1,4 +1,4 @@
-# javaBot
+# javabot
 
 ## Description
 Used to listen to events in Webex Teams on a localhost port. The only command it can understand is **hello**,
