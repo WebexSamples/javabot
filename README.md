@@ -12,7 +12,9 @@ replies "hello there".
 * **Maven 3.6.1**
 
 ## Installation
-
+* clone the repo
+* ```mvn install```
+* ````mvn exec:java -Dexec.mainClass=Main```
 
 ## Usage
 
