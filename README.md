@@ -38,7 +38,7 @@ Please enter port you want to listen on:
 5000
 INFO Service listening on localhost:5000
 ```
-**Tip**: you can use the [hookbuster](https://github.com/webex/hookbuster) to test how this app works. Start a websocket listener for messages:created and the **hookbuster** will forward incoming message events to localhost, where **javabot** can listen to them.
+**Tip**: you can use the [hookbuster](https://github.com/webex/hookbuster) to test how this app works. Start a websocket listener for messages:created and the **hookbuster** will forward incoming message events to localhost, where **javabot** can listen to them. No need for webhooks!
 
 ## Dependencies
 
