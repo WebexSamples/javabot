@@ -14,7 +14,7 @@ replies "hello there".
 ## Installation
 * clone the repo
 * ```mvn install```
-* ````mvn exec:java -Dexec.mainClass=Main```
+* ```mvn exec:java -Dexec.mainClass=Main```
 
 ## Usage
 
