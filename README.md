@@ -53,13 +53,13 @@ INFO Service listening on localhost:5000
    <groupId>com.ciscospark</groupId>
    <artifactId>ciscospark-client</artifactId>
    <version>1.0-SNAPSHOT</version>
-  </dependency>
+ </dependency>
 
-  <dependency>
+ <dependency>
    <groupId>org.json</groupId>
    <artifactId>json</artifactId>
    <version>20180130</version>
-  </dependency>
- </dependencies>
+ </dependency>
+</dependencies>
 ```
 
