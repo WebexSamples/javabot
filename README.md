@@ -1,6 +1,7 @@
 # javabot
 
 ## Description
+
 Used to listen to events in Webex Teams on a localhost port. The only command it can understand is **hello**,
 replies "hello there".
 
@@ -12,6 +13,7 @@ replies "hello there".
 * **Maven 3.6.1**
 
 ## Installation
+
 * clone the repo
 * ```mvn install```
 * ```mvn exec:java -Dexec.mainClass=Main```
@@ -38,7 +40,8 @@ Please enter port you want to listen on:
 5000
 INFO Service listening on localhost:5000
 ```
-**Tip**: you can use the [hookbuster](https://github.com/webex/hookbuster) to test how this app works. Start a websocket listener for messages:created and the **hookbuster** will forward incoming message events to localhost, where **javabot** can listen to them. No need for webhooks!
+
+**Tip**: you can use the [hookbuster](https://github.com/WebexSamples/hookbuster) to test how this app works. Start a websocket listener for `messages:created` and the **hookbuster** will forward incoming message events to localhost, where **javabot** can listen to them. No need for webhooks!
 
 ## Dependencies
 
@@ -49,7 +52,7 @@ INFO Service listening on localhost:5000
    <artifactId>javax.json</artifactId>
    <version>1.0.4</version>
  </dependency>
- 
+
  <dependency>
    <groupId>com.ciscospark</groupId>
    <artifactId>ciscospark-client</artifactId>
@@ -63,4 +66,3 @@ INFO Service listening on localhost:5000
  </dependency>
 </dependencies>
 ```
-
